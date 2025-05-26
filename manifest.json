@@ -1,0 +1,8 @@
+{
+  "name": "Edward",
+  "short_name": "Edward",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#d6d7dc",
+  "theme_color": "#d6d7dc"
+}
