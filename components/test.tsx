@@ -26,10 +26,10 @@ export default function Component() {
         {/* Student Info Card */}
         <div className="p-6 pb-2">
           <Card className="overflow-hidden border-0 shadow-lg">
-            <div className="bg-[#20a4d3] text-white text-center pt-1">
+            <div className="bg-[#20a4d3] text-white text-center py-1">
               <h2 className="font-medium">학생정보</h2>
             </div>
-            <CardContent className="p-8 pt-6 pr-2">
+            <CardContent className="px-8 py-6 pr-0">
               <div className="flex items-center gap-4">
                   <Image
                     src="/profile-photo.jpeg"
@@ -50,7 +50,7 @@ export default function Component() {
         </div>
 
         {/* Steps Counter */}
-        <div className="flex justify-between items-center bg-white py-2 px-4">
+        <div className="flex justify-between items-center bg-white py-3 px-4">
           <span className="text-gray-600 font-medium">메뉴</span>
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 border-2 border-[#c3e1ed] rounded-full flex items-center justify-center">
@@ -65,7 +65,7 @@ export default function Component() {
         {/* Menu Grid */}
         <div className="w-full flex-1 overflow-y-auto">
 
-        <div className="grid grid-cols-3 grid-rows-3 gap-4 px-2">
+        <div className="grid grid-cols-3 gap-4 px-2">
           {/* Schedule */}
           <Card className="text-center flex flex-col items-center justify-between border-0 shadow-lg p-0 overflow-hidden">
             <Image
