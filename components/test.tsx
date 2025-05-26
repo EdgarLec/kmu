@@ -156,7 +156,7 @@ export default function Component() {
       {/* Floating Refresh Button */}
       <Button
         size="icon"
-        className="fixed bottom-8 right-6 w-10 h-10 rounded-full bg-[#20a4d3] hover:bg-[#1a8bb8] shadow-xl"
+        className="fixed bottom-12 right-6 w-10 h-10 rounded-full bg-[#20a4d3] hover:bg-[#1a8bb8] shadow-xl"
       >
         <RotateCcw className="w-6 h-6" />
       </Button>
