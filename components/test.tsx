@@ -9,7 +9,7 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col relative">
       {/* Header */}
-      <div className="bg-white px-4 py-3 flex justify-between items-center">
+      <div className="bg-white px-4 py-2 flex justify-between items-center">
         <div className="w-5 h-4 flex flex-col">
           <div className="w-full flex-1 bg-[#20a4d3]"></div>
           <div className="w-full flex-1"></div>
@@ -141,7 +141,7 @@ export default function Component() {
         </div>
 
         {/* University Logo */}
-        <div className="flex justify-center items-center py-4 bg-white">
+        <div className="flex justify-center items-center py-6 bg-white">
           <Image
             src="/kmu.png"
             alt="University Logo"
