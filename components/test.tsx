@@ -29,7 +29,7 @@ export default function Component() {
             <div className="bg-[#20a4d3] text-white text-center py-1">
               <h2 className="font-medium">학생정보</h2>
             </div>
-            <CardContent className="px-8 py-6 pr-0">
+            <CardContent className="px-8 py-6 pt-4 pr-0">
               <div className="flex items-center gap-4">
                   <Image
                     src="/profile-photo.jpeg"
